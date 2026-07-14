@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Course Registration</title>
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <p>
+            <label>First Name:</label> <br>
+            <input type="text" placeholder="Enter your first name">
+        </p>
+
+        <p>
+            <label>Surname:</label> <br>
+            <input type="text" placeholder="Enter your surname">
+        </p>
+
+        <p>
+            <label>Age:</label> <br>
+            <input type="number" placeholder="Enter your age">
+        </p>
+
+        <p>
+              <label>Gender:</label> <br>
+                    <input type="radio" name="gender" value="male"> Male <br>
+                    <input type="radio" name="gender" value="female"> Female
+                </p>
+                
+                <p>
+                    <label>Choose Course:</label> <br>
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>JavaScript</option>
+                    </select>
+                </p>
+                
+                <p>
+                    <input type="submit" value="Submit Information">
+                </p>
+      </form>
+<table>
+            
+                <tr>
+                    <th>Student Name</th>
+                    <th>Roll No</th>
+                    <th>Grade</th>
+                </tr>
+                
+                <tr>
+                    <td><input type="text" placeholder="Ashok"></td>
+                    <td><input type="number" placeholder="21"></td>
+                    <td><input type="text" placeholder="A"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="text" placeholder="Kumar"></td>
+                    <td><input type="number" placeholder="33"></td>
+                    <td><input type="text" placeholder="C"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="text" placeholder="Bhargav"></td>
+                    <td><input type="number" placeholder="28"></td>
+                    <td><input type="text" placeholder="B"></td>
+                </tr>
+        </table>
+
+</head>
+</html>
